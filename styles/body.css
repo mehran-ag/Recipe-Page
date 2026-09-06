@@ -1,0 +1,158 @@
+h1 {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 0;
+  margin: 0.75rem 0;
+}
+
+h2 {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--Brown-800);
+  padding: 0;
+  margin: 0;
+}
+
+h3 {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--Rose-800);
+  padding: 0;
+  margin: 0.1rem;
+}
+
+.wholebody-container {
+  width: 100%;
+}
+
+.main-image {
+  width: 100%;
+}
+
+.body-container {
+  padding: 1rem;
+}
+
+.recipe-txt {
+  line-height: 1.5em;
+}
+
+.prep-time-container {
+  background-color: var(--Rose-50);
+  border-radius: 10px;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+}
+
+.prep-time-container li {
+  margin: 0.75rem 0;
+}
+
+.ingre-container {
+  margin-top: 1rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.263);
+}
+
+.ingre-container li {
+  margin: 0.75rem 0;
+}
+
+.instruc-container {
+  margin-top: 1rem;
+}
+
+.instruc-container ol {
+  padding-left: 0.5rem;
+  margin-left: 1rem;
+}
+
+.instruc-container li {
+  margin: 0.5rem;
+  line-height: 1.5em;
+}
+
+.nutrition-txt {
+  margin: 0.5rem 0;
+  line-height: 1.5em;
+}
+
+.table-container {
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.291);
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  font-weight: normal;
+}
+
+td {
+  color: var(--Rose-800);
+  font-weight: bold;
+}
+
+tr:last-child th,
+tr:last-child td {
+  border-bottom: none;
+}
+
+
+
+@media (min-width: 768px) {
+
+  body {
+    min-height: 100vh;
+    background-color: var(--Stone-100);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .wholebody-container {
+    height: 90vh !important;
+    width: 40vw !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    overflow-y: auto;
+    border-radius: 0.5rem;
+  }
+
+  .main-image-container {
+    margin: 1rem;
+  }
+
+  .main-image {
+    border-radius: 0.5rem;
+  }
+
+  h1 {
+    margin: 0 0 0.75rem 0;
+  }
+
+  .body-container {
+    padding: 0 1rem 1rem 1rem;
+  }
+
+  table {
+    border-collapse: collapse;
+    max-width: 75%;
+  }
+}
