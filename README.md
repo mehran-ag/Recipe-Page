@@ -32,7 +32,7 @@ Check out the screenshot here and let me know if you liked it. (./myPreview.jpg)
 
 ## Want to see how the page is?
 
-CHeck out the link to see the live page at https://mehran-ag.github.io/recipe-page
+CHeck out the link to see the live page at https://mehran-ag.github.io/Recipe-Page
 
 ### My process
 
