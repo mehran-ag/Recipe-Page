@@ -52,8 +52,8 @@ h3 {
 }
 
 .ingre-container {
-  margin-top: 1rem;
-  border-bottom: 1px solid var(--faded-black);
+  margin-block-start: 1rem;
+  border-block-end: 1px solid var(--faded-black);
 }
 
 .ingre-container li {
@@ -61,7 +61,7 @@ h3 {
 }
 
 .instruc-container {
-  margin-top: 1rem;
+  margin-block-start: 1rem;
 }
 
 .instruc-container ol {
@@ -125,12 +125,12 @@ tr:last-child td {
 
   .wholebody-container {
     height: 90vh;
-    width: min(60vw, 700px);
+    width: min(60vw, 48rem);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: white;
+    background-color: var(--white);
     overflow-y: auto;
     border-radius: 0.5rem;
   }
