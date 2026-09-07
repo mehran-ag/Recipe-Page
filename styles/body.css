@@ -26,6 +26,7 @@ h3 {
 
 .wholebody-container {
   width: 100%;
+  background-color: var(--White);
 }
 
 .main-image {
@@ -125,14 +126,15 @@ tr:last-child td {
 
   .wholebody-container {
     height: 90vh;
-    width: min(60vw, 48rem);
+    width: min(90%, 45rem);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: var(--white);
+    background-color: var(--White);
     overflow-y: auto;
     border-radius: 0.5rem;
+    margin: 2rem auto;
   }
 
   .main-image-container {
